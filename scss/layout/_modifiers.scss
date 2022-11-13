@@ -1,0 +1,109 @@
+@use '../globals/variables';
+
+.text--muted {
+  color: hsl(0, 0%, 40%);;
+}
+
+.text--white {
+  color: hsl(0, 0%, 100%);
+}
+
+.text--grey {
+  color: hsl(0, 0%, 76%);;
+}
+
+.text--fs14 {
+  font-size: var(--unit-14);
+}
+
+.text--fs16 {
+  font-size: var(--unit-16);
+}
+
+.text--fs18 {
+  font-size: var(--unit-18);
+}
+
+.text--fs20 {
+  font-size: var(--unit-20);
+}
+
+.text--fs22 {
+  font-size: var(--unit-22);
+}
+
+.text--fs24 {
+  font-size: var(--unit-24);
+}
+
+.text--fs28 {
+  font-size: var(--unit-28);
+}
+
+.text--fs48 {
+  font-size: var(--unit-48);
+}
+
+.text--fs66 {
+  font-size: var(--unit-66);
+}
+
+.text--fw400 {
+  font-weight: 400;
+}
+
+.text--fw500 {
+  font-weight: 500;
+}
+
+.text--fw600 {
+  font-weight: 600;
+}
+
+.text--fw700 {
+  font-weight: 700;
+}
+
+.letter_spacing--xs {
+  letter-spacing: -0.02em;
+}
+
+.letter_spacing--sm {
+  letter-spacing: 0.1em;
+}
+
+.letter_spacing--normal {
+  letter-spacing: 1px;
+}
+
+.line_height--18 {
+  line-height: var(--unit-18);
+}
+
+.line_height--20 {
+  line-height: var(--unit-20);
+}
+
+.line_height--22 {
+  line-height: var(--unit-22);
+}
+
+.line_height--24 {
+  line-height: var(--unit-24);
+}
+
+.line_height--28 {
+  line-height: var(--unit-28);
+}
+
+.line_height--30 {
+  line-height: var(--unit-30);
+}
+
+.line_height--36 {
+  line-height: var(--unit-36);
+}
+
+.line_height--58 {
+  line-height: var(--unit-58);
+}

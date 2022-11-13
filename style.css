@@ -33,4 +33,137 @@ a:active {
 :root {
   --bg-white:hsl(0, 0%, 96%);
   --bg-black:hsl(0, 0%, 9%);
+}
+
+:root {
+  --unit-base: 12px;
+  --unit-6: calc(var(--unit-base) * 0.5);
+  --unit-12: var(--unit-base);
+  --unit-14: calc(var(--unit-base) * 1.16);
+  --unit-16: calc(var(--unit-base) * 1.33);
+  --unit-18: calc(var(--unit-base) * 1.5);
+  --unit-20: calc(var(--unit-base) * 1.66);
+  --unit-22: calc(var(--unit-base) * 1.83);
+  --unit-24: calc(var(--unit-base) * 2);
+  --unit-28: calc(var(--unit-base) * 2.33);
+  --unit-30: calc(var(--unit-base) * 2.5);
+  --unit-36: calc(var(--unit-base) * 3);
+  --unit-48: calc(var(--unit-base) * 4);
+  --unit-58: calc(var(--unit-base) * 4.83);
+  --unit-66: calc(var(--unit-base) * 5.5);
+  --unit-80: calc(var(--unit-base) * 6.6);
+}
+
+.text--muted {
+  color: hsl(0deg, 0%, 40%);
+}
+
+.text--white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.text--grey {
+  color: hsl(0deg, 0%, 76%);
+}
+
+.text--fs14 {
+  font-size: var(--unit-14);
+}
+
+.text--fs16 {
+  font-size: var(--unit-16);
+}
+
+.text--fs18 {
+  font-size: var(--unit-18);
+}
+
+.text--fs20 {
+  font-size: var(--unit-20);
+}
+
+.text--fs22 {
+  font-size: var(--unit-22);
+}
+
+.text--fs24 {
+  font-size: var(--unit-24);
+}
+
+.text--fs28 {
+  font-size: var(--unit-28);
+}
+
+.text--fs48 {
+  font-size: var(--unit-48);
+}
+
+.text--fs66 {
+  font-size: var(--unit-66);
+}
+
+.text--fw400 {
+  font-weight: 400;
+}
+
+.text--fw500 {
+  font-weight: 500;
+}
+
+.text--fw600 {
+  font-weight: 600;
+}
+
+.text--fw700 {
+  font-weight: 700;
+}
+
+.letter_spacing--xs {
+  letter-spacing: -0.02em;
+}
+
+.letter_spacing--sm {
+  letter-spacing: 0.1em;
+}
+
+.letter_spacing--normal {
+  letter-spacing: 1px;
+}
+
+.line_height--18 {
+  line-height: var(--unit-18);
+}
+
+.line_height--20 {
+  line-height: var(--unit-20);
+}
+
+.line_height--22 {
+  line-height: var(--unit-22);
+}
+
+.line_height--24 {
+  line-height: var(--unit-24);
+}
+
+.line_height--28 {
+  line-height: var(--unit-28);
+}
+
+.line_height--30 {
+  line-height: var(--unit-30);
+}
+
+.line_height--36 {
+  line-height: var(--unit-36);
+}
+
+.line_height--58 {
+  line-height: var(--unit-58);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--bg-white);
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+:root {
+  --unit-base: 12px;
+
+  --unit-6: calc(var(--unit-base) * 0.5);
+  --unit-12: var(--unit-base);
+  --unit-14: calc(var(--unit-base) * 1.16);
+  --unit-16: calc(var(--unit-base) * 1.33);
+  --unit-18: calc(var(--unit-base) * 1.5);
+  --unit-20: calc(var(--unit-base) * 1.66);
+  --unit-22: calc(var(--unit-base) * 1.83);
+  --unit-24: calc(var(--unit-base) * 2);
+  --unit-28: calc(var(--unit-base) * 2.33);
+  --unit-30: calc(var(--unit-base) * 2.5);
+  --unit-36: calc(var(--unit-base) * 3);
+  --unit-48: calc(var(--unit-base) * 4);
+  --unit-58: calc(var(--unit-base) * 4.83);
+  --unit-66: calc(var(--unit-base) * 5.5);
+  --unit-80: calc(var(--unit-base) * 6.6);
+}
+ 
