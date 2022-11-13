@@ -163,7 +163,37 @@ a:active {
 }
 
 .header {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 20px 22px;
   width: 100%;
   background-color: var(--bg-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.header sup {
+  font-size: 7px;
+}
+.header__links {
+  display: none;
+}
+.header__search {
+  width: 20px;
+}
+.header__burger {
+  width: 26.5px;
+}
+.header .input--search {
+  display: none;
+}
+
+.main {
+  background-color: var(--bg-white);
+}
+.main__title {
+  border-bottom: 1px solid #C7C7C7;
 }/*# sourceMappingURL=style.css.map */

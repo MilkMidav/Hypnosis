@@ -2,7 +2,43 @@
 @forward 'layout';
 
 .header {
-  position: fixed;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 20px 22px;
   width: 100%;
   background-color: var(--bg-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+  sup {
+    font-size: 7px;
+  }
+
+  &__links {
+    display: none;
+  }
+
+  &__search {
+    width: 20px;
+  }
+
+  &__burger {
+    width: 26.5px;
+    
+  }
+
+  .input--search {
+    display: none;
+  }
+}
+
+.main {
+  background-color: var(--bg-white);
+
+  &__title {
+    border-bottom: 1px solid #C7C7C7;
+  }
 }
