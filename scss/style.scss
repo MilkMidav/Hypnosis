@@ -40,5 +40,95 @@
 
   &__title {
     border-bottom: 1px solid #C7C7C7;
+    padding: 30px 0;
+    text-align: center;
   }
+
+  &__author {
+    border-bottom: 1px solid black;
+  }
+
+  &__somali_img {
+    width: 100%;
+    padding: 48px 20px 28px 20px;
+  }
+
+  &__article {
+    padding:0 20px;
+  }
+
+  &__line {
+    display: none;
+  }
+
+  &__conclusion {
+    text-align: center;
+    padding:0 20px 20px;
+  }
+
+
+  &__related {
+    background-color: var(--bg-black);
+    margin-top: 76px;
+  }
+}
+
+.author__info {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 24px 20px;
+}
+
+.avatar {
+  width: 64px;
+  margin-right: 20px;
+}
+
+.author__share {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px 24px 10px;
+}
+
+.button--link {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-white);
+  border: 1px solid #cecece;
+  padding: 8px 14px;
+
+  img {
+    width: 16px;
+    margin-right: 6px;
+  }
+}
+
+.article__title {
+  padding-bottom: 24px;
+}
+
+.article__subtitle {
+  padding-bottom: 48px;
+}
+
+.video {
+  width: 100%;
+  padding: 48px 0 24px 0;
+}
+
+.parentheses {
+  width: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.related__title {
+  padding: 20px;
+}
+
+.mars {
+  width: 100%;
+  padding: 108px 0 32px 0;
 }
