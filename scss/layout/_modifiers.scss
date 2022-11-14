@@ -1,4 +1,5 @@
 @use '../globals/variables';
+@use '../globals/colors';
 
 .text--muted {
   color: hsl(0, 0%, 40%);;
@@ -112,6 +113,12 @@
   padding-bottom: 20px;
 }
 
-.parentheses {
-  width: 28px;
+.button--primary {
+  cursor: pointer;
+  text-align: center;
+}
+
+.button--white {
+  background-color: var(--bg-white);
+  color: black;
 }
