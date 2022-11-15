@@ -109,16 +109,22 @@
   line-height: var(--unit-58);
 }
 
-.pb-20 {
+.pb--20 {
   padding-bottom: 20px;
 }
 
 .button--primary {
   cursor: pointer;
   text-align: center;
+  font-family: inherit;
 }
 
 .button--white {
   background-color: var(--bg-white);
   color: black;
+}
+
+.button--black {
+  background-color: var(--bg-black);
+  color: white;
 }
