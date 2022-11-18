@@ -14,39 +14,39 @@
 }
 
 .text--fs14 {
-  font-size: var(--unit-14);
+  font-size: 0.875rem;
 }
 
 .text--fs16 {
-  font-size: var(--unit-16);
+  font-size: 1rem;
 }
 
 .text--fs18 {
-  font-size: var(--unit-18);
+  font-size: 1.125rem;
 }
 
 .text--fs20 {
-  font-size: var(--unit-20);
+  font-size: 1.25rem;
 }
 
 .text--fs22 {
-  font-size: var(--unit-22);
+  font-size: 1.375rem;
 }
 
 .text--fs24 {
-  font-size: var(--unit-24);
+  font-size: 1.5rem;
 }
 
 .text--fs28 {
-  font-size: var(--unit-28);
+  font-size: 1.75rem;
 }
 
 .text--fs48 {
-  font-size: var(--unit-48);
+  font-size: 3rem;
 }
 
 .text--fs66 {
-  font-size: var(--unit-66);
+  font-size: 4.125rem;
 }
 
 .text--fw400 {
@@ -127,4 +127,10 @@
 .button--black {
   background-color: var(--bg-black);
   color: white;
+}
+
+.line--hide {
+  @media screen and (min-width: 1480px) {
+    display: none;
+  }
 }

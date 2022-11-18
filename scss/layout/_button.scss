@@ -1,6 +1,6 @@
 button:hover,
 button:focus {
-    background: #0053ba;
+    background: #adb1b5;
 }
 
 button:focus {
@@ -10,4 +10,10 @@ button:focus {
 
 button:active {
     transform: scale(0.99);
+}
+
+.subscribe_button:hover,
+.subscribe_button:focus {
+    background: #ffff;
+    color: black;
 }
