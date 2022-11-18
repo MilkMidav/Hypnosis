@@ -371,6 +371,11 @@ button:active {
   padding: 64px 20px 88px 20px;
   text-align: center;
 }
+@media screen and (min-width: 1480px) {
+  .main__newsletter {
+    padding: 128px 0 93px 0;
+  }
+}
 
 .author__info {
   display: flex;
@@ -539,6 +544,15 @@ button:active {
   padding: 14px 0;
   margin-bottom: var(--unit-24);
 }
+@media screen and (min-width: 1480px) {
+  .subscribe_button {
+    max-width: 140px;
+    padding: 10px 0;
+    position: absolute;
+    right: 328px;
+    top: 47px;
+  }
+}
 
 .input_email {
   width: 100%;
@@ -558,6 +572,19 @@ button:active {
 .input_email::placeholder {
   font-size: var(--unit-18);
   font-weight: 400;
+}
+@media screen and (min-width: 1480px) {
+  .input_email {
+    max-width: 840px;
+    padding: var(--unit-22);
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .newsletter__subscription {
+    position: relative;
+    padding: 40px 0;
+  }
 }
 
 .footer {
