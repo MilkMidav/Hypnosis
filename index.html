@@ -56,8 +56,11 @@
         </button>
       </div>
     </div>
-    <img class="main__title_img" src="img/somali_1.png" alt="somali_photo">
-    <div class="main__article">
+    <picture>
+      <source media="(min-width: 1480px)" srcset="img/somali_1_1480px.png">
+      <img class="main__title_img" src="img/somali_1.png" alt="somali_photo">
+    </picture>
+    <div class="main__article flex_block flex_block--left">
       <h3 class="article__title text--fs24 text--fw600 line_height--28">People are dying of hunger...
         there’s no water</h3>
       <p class="article__subtitle text--fw400 text--fs18 line_height--24">In Somalia, more than 6 million people are in
@@ -67,7 +70,7 @@
         inside the camps, food is scarce.
       </p>
     </div>
-    <div class="">
+    <div class="flex_block flex_block--left">
       <img class="main__somali_img" src="img/somali_2.png" alt="somali_photo">
       <div class="main__article">
         <h3 class="article__title text--fs24 text--fw600 line_height--18">Let’s help them. I know you can</h3>
@@ -84,19 +87,21 @@
           children in Somalia.</p>
       </div>
     </div>
-    <img class="main__somali_img" src="img/somali_3.png" alt="somali_photo">
-    <div class="main__article">
-      <h3 class="article__title text--fs24 text--fw600 line_height--18">Still ‘neglected’</h3>
-      <p class="pb--20 text--fw400 text--fs18 line_height--24">“The situation is critical in Somalia. People
-        are dying of
-        hunger and there is
-        no water,” said Mogadishu
-        resident Noor Ibrahim, who fled his home to seek help at a camp. </p>
-      <p class="article__subtitle text--fw400 text--fs18 line_height--24">“Al-Shabaab blocks the roads, there is no
-        access for food aid,
-        the Shabaab steal
-        food as well.</p>
+    <div class="flex_block flex_block--right">
+      <img class="main__somali_img" src="img/somali_3.png" alt="somali_photo">
+      <div class="main__article">
+        <h3 class="article__title text--fs24 text--fw600 line_height--18">Still ‘neglected’</h3>
+        <p class="pb--20 text--fw400 text--fs18 line_height--24">“The situation is critical in Somalia. People
+          are dying of
+          hunger and there is
+          no water,” said Mogadishu
+          resident Noor Ibrahim, who fled his home to seek help at a camp. </p>
+        <p class="article__subtitle text--fw400 text--fs18 line_height--24">“Al-Shabaab blocks the roads, there is no
+          access for food aid,
+          the Shabaab steal
+          food as well.</p>
 
+      </div>
     </div>
     <img class="video" src="img/Video.png" alt="Video">
     <img class="parentheses" src="img/icon/“.png" alt="">
@@ -252,19 +257,21 @@
           All rights
           reserved.</p>
       </div>
-      <div class="footer__social_media">
-        <img src="img/icon/facebook.png" alt="facebook">
-        <img src="img/icon/twitter.png" alt="twitter">
-        <img src="img/icon/youtube.png" alt="youtube">
-        <img src="img/icon/tiktok.png" alt="tiktok">
+      <div>
+        <div class="footer__social_media">
+          <img src="img/icon/facebook.png" alt="facebook">
+          <img src="img/icon/twitter.png" alt="twitter">
+          <img src="img/icon/youtube.png" alt="youtube">
+          <img src="img/icon/tiktok.png" alt="tiktok">
+        </div>
+        <div class="site_info__help_block">
+          <a class="text--fs14 text--fw400 line_height--18" href="">Terms & Conditions</a>
+          <a class="text--fs14 text--fw400 line_height--18" href="">Cookies</a>
+          <a class="text--fs14 text--fw400 line_height--18" href="">Ads</a>
+          <a class="text--fs14 text--fw400 line_height--18" href="">About us</a>
+          <a class="text--fs14 text--fw400 line_height--18" href="">Join our team</a>
+        </div>
       </div>
-      <div class="site_info__help_block">
-        <a class="text--fs14 text--fw400 line_height--18" href="">Terms & Conditions</a>
-        <a class="text--fs14 text--fw400 line_height--18" href="">Cookies</a>
-        <a class="text--fs14 text--fw400 line_height--18" href="">Ads</a>
-        <a class="text--fs14 text--fw400 line_height--18" href="">About us</a>
-      </div>
-      <a class="text--fs14 text--fw400 line_height--18" href="">Join our team</a>
     </div>
   </footer>
 </body>

@@ -114,13 +114,8 @@
     padding: 48px 20px 28px 20px;
 
     @media screen and (min-width: 1480px) {
-      display: block;
-      box-sizing: initial;
-      max-width: 1280px;
-      height: 762px;
       padding: 60px 80px;
       margin: 0 auto;
-    
     }
   }
 
@@ -131,6 +126,10 @@
     @media screen and (min-width: 1480px) {
       border: unset;
     }
+
+    @media screen and (min-width: 1480px) {
+      margin: unset;
+    }
   }
 
   &__line {
@@ -139,7 +138,9 @@
 
   &__conclusion {
     text-align: center;
+    margin: 0 auto;
     padding:0 20px 20px;
+    max-width: 1030px;
   }
 
 
@@ -205,16 +206,27 @@
 
 .article__title {
   padding-bottom: var(--unit-24);
+
+  @media screen and (min-width: 1480px) {
+   padding: unset;
+  }
 }
 
 .article__subtitle {
   padding-bottom: var(--unit-48);
+
+  @media screen and (min-width: 1480px) {
+    padding: unset;
+   }
 }
 
 .video {
   width: 100%;
   padding: 48px 0 24px 0;
   cursor: pointer;
+  @media screen and (min-width: 1480px) {
+    padding: 120px 130px 64px;
+  }
 }
 
 .parentheses {
@@ -326,8 +338,8 @@
    max-width: 140px;
    padding: 10px 0;
    position: absolute;
-   right: 328px;
-   top: 47px;
+   right: 326px;
+   top: 46px;
   }
 }
 
@@ -366,6 +378,11 @@
 
     @media screen and (min-width: 760px){
       grid-template-columns: 1fr 1.1fr 0.9fr;
+    }
+
+    @media screen and (min-width: 1480px) {
+      grid-template-columns: repeat(6, 1fr);
+      padding: 0 130px;
     }
 
     p {
@@ -433,3 +450,72 @@ a:active {
   font-size: var(--unit-16);
 }
 
+.flex_block>img {
+  @media screen and (min-width: 1480px) {
+    width: 478px;
+    padding: unset;
+  }
+}
+
+.flex_block {
+  display: flex;
+  flex-direction: column;
+
+
+  .article__title {
+    @media screen and (min-width: 1480px) {
+      flex-basis: 476px;
+    }
+  }
+
+  .article__subtitle {
+    @media screen and (min-width: 1480px) {
+      flex-basis: 578px;
+    }
+  }
+
+  @media screen and (min-width: 1480px) {
+    padding: 0 130px;
+  }
+
+  &--right {
+    @media screen and (min-width: 1480px) {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 177px;
+    }
+
+    .main__article {
+      @media screen and (min-width: 1480px) {
+        flex-basis: 578px;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+        padding: 120px 0;
+      }
+    }
+  }
+
+  &--left{
+    @media screen and (min-width: 1480px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .main__article {
+      @media screen and (min-width: 1480px) {
+        flex-basis: 578px;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+        padding: 90px 0;
+      }
+    }
+  }
+}
+
+.main>.main__article {
+  @media screen and (min-width: 1480px) {
+  padding-bottom: 108px;
+}
+}
