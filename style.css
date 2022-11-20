@@ -478,11 +478,6 @@ button:active {
 .article__title {
   padding-bottom: var(--unit-24);
 }
-@media screen and (min-width: 1480px) {
-  .article__title {
-    padding: unset;
-  }
-}
 
 .article__subtitle {
   padding-bottom: var(--unit-48);
@@ -659,9 +654,16 @@ button:active {
   background-color: #e7dfdf;
   padding: 8px 20px 24px 20px;
 }
+@media screen and (min-width: 1480px) {
+  .footer {
+    padding: 24px 130px 37px;
+  }
+}
 .footer__topics {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 760px) {
   .footer__topics {
@@ -671,7 +673,6 @@ button:active {
 @media screen and (min-width: 1480px) {
   .footer__topics {
     grid-template-columns: repeat(6, 1fr);
-    padding: 0 130px;
   }
 }
 .footer__topics p {
@@ -684,6 +685,16 @@ button:active {
 .footer__site_info {
   padding-top: var(--unit-30);
   text-align: center;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1480px) {
+  .footer__site_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: unset;
+  }
 }
 .footer img {
   width: var(--unit-28);
@@ -695,6 +706,11 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 1480px) {
+  .footer__social_media {
+    justify-content: end;
+  }
 }
 .footer__social_media img {
   cursor: pointer;
@@ -708,13 +724,24 @@ button:active {
 .site_info__copyright {
   padding: 16px 0 42px;
 }
+@media screen and (min-width: 1480px) {
+  .site_info__copyright {
+    padding: 28px 0 0 0;
+  }
+}
 
 .site_info__help_block {
-  width: 326px;
+  max-width: 426px;
   padding-top: 28px;
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (min-width: 1480px) {
+  .site_info__help_block {
+    gap: 20px;
+    max-width: 500px;
+  }
 }
 
 .footer__site_info > a {
@@ -769,7 +796,7 @@ a:active {
     flex-basis: 578px;
     border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
-    padding: 120px 0;
+    padding: 105px 0;
   }
 }
 @media screen and (min-width: 1480px) {
@@ -784,7 +811,7 @@ a:active {
     flex-basis: 578px;
     border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
-    padding: 90px 0;
+    padding: 80px 0;
   }
 }
 
