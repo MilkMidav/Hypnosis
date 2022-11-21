@@ -521,6 +521,14 @@ button:active {
   }
 }
 
+.news__title {
+  color: #C7C7C7;
+}
+.news__title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .full_info {
   display: flex;
   justify-content: space-between;

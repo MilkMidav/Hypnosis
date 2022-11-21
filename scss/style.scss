@@ -287,8 +287,17 @@
 
 .related__news {
   padding: 0 var(--unit-20);
+
   @media screen and (min-width: 1480px) {
   padding: 0 40px;
+  }
+}
+
+.news__title{
+  color: #C7C7C7;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
 
