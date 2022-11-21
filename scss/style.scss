@@ -25,7 +25,7 @@
 
     @media screen and (min-width:1480px) {
       display: flex;
-      gap: 60px;  
+      gap: var(--unit-60);  
     }
   }
 
@@ -69,8 +69,8 @@
 .input_search::before {
   content: url(../img/icon/search.png);
   position: absolute;
-  top: 40px;
-  left: 30px;
+  top: var(--unit-40);
+  left: var(--unit-30);
 }
 
 .main {
@@ -146,7 +146,7 @@
 
   &__related {
     background-color: var(--bg-black);
-    margin-top: 76px;
+    margin-top: var(--unit-76);
     padding-bottom: var(--unit-24);
   }
 
@@ -167,7 +167,7 @@
 }
 
 .avatar {
-  width: 64px;
+  width: var(--unit-64);
   margin-right: var(--unit-20);
 }
 
@@ -182,7 +182,7 @@
 }
 
 @media screen and (min-width: 1480px) {
-  gap: 16px;
+  gap: var(--unit-16);
 }
 
 }
@@ -236,7 +236,7 @@
 
 
 .related__title {
-  padding: 20px;
+  padding: var(--unit-20);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -451,19 +451,19 @@ img {
 
 .site_info__help_block {
   max-width: 426px;
-  padding-top: 28px;
+  padding-top: var(--unit-28);
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-between;
 
   @media screen and (min-width: 1480px) {
-    gap: 20px;
+    gap: var(--unit-20);
     max-width: 500px;
   }
 }
 
 .footer__site_info>a {
-  padding-top: 16px;
+  padding-top: var(--unit-16);
 }
 
 a:hover,
