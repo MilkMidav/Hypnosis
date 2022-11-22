@@ -77,35 +77,35 @@
   letter-spacing: 1px;
 }
 
-.line_height--18 {
+.text--lh18 {
   line-height: var(--unit-18);
 }
 
-.line_height--20 {
+.text--lh20 {
   line-height: var(--unit-20);
 }
 
-.line_height--22 {
+.text--lh22 {
   line-height: var(--unit-22);
 }
 
-.line_height--24 {
+.text--lh24 {
   line-height: var(--unit-24);
 }
 
-.line_height--28 {
+.text--lh28 {
   line-height: var(--unit-28);
 }
 
-.line_height--30 {
+.text--lh30 {
   line-height: var(--unit-30);
 }
 
-.line_height--36 {
+.text--lh36 {
   line-height: var(--unit-36);
 }
 
-.line_height--58 {
+.text--lh58 {
   line-height: var(--unit-58);
 }
 
@@ -117,9 +117,6 @@
   cursor: pointer;
   text-align: center;
   font-family: inherit;
-}
-
-.button--white {
   background-color: var(--bg-white);
   color: black;
 }
@@ -132,6 +129,23 @@
 .line--hide {
   @media screen and (min-width: 1480px) {
     display: none;
+  }
+}
+
+.button--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cecece;
+  padding: 8px 14px;
+
+  @media screen and (min-width: 1480px) {
+    padding: 12px 16px;
+  }
+
+  img {
+    width: var(--unit-16);
+    margin-right: var(--unit-6);
   }
 }
 
