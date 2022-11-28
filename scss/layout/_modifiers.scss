@@ -79,35 +79,35 @@
 }
 
 .text--lh18 {
-  line-height: var(--unit-18);
+  line-height: g.$unit-18;
 }
 
 .text--lh20 {
-  line-height: var(--unit-20);
+  line-height: g.$unit-20;
 }
 
 .text--lh22 {
-  line-height: var(--unit-22);
+  line-height: g.$unit-22;
 }
 
 .text--lh24 {
-  line-height: var(--unit-24);
+  line-height: g.$unit-24;
 }
 
 .text--lh28 {
-  line-height: var(--unit-28);
+  line-height: g.$unit-28;
 }
 
 .text--lh30 {
-  line-height: var(--unit-30);
+  line-height: g.$unit-30;
 }
 
 .text--lh36 {
-  line-height: var(--unit-36);
+  line-height: g.$unit-36;
 }
 
 .text--lh58 {
-  line-height: var(--unit-58);
+  line-height: g.$unit-58;
 }
 
 .pb--20 {
@@ -149,8 +149,8 @@
   }
 
   img {
-    width: var(--unit-16);
-    margin-right: var(--unit-6);
+    width: g.$unit-16;
+    margin-right: g.$unit-6;
   }
 }
 
