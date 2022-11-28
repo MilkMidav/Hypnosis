@@ -99,7 +99,11 @@
 
   &__author {
     border-bottom: 1px solid black;
-    padding: 16px 20px 24px 20px;
+    padding: 16px 12px 24px 12px;
+
+    @include g.media480 {
+      padding: 16px 20px 24px 20px;
+    }
 
     @include g.media760 {
       display: flex;
