@@ -1,3 +1,6 @@
+// Mobile (portrait view)
+$screen-sm-min: 480px;
+
 // Small tablets (portrait view)
 $screen-md-min: 760px;
 
@@ -7,22 +10,30 @@ $screen-lg-min: 1025px;
 // Large tablets and desktops
 $screen-xl-min: 1480px;
 
+
+// Small devices
+@mixin media480 {
+  @media (min-width: #{$screen-sm-min}) {
+      @content;
+  }
+}
+
 // Medium devices
-@mixin md {
+@mixin media760 {
   @media (min-width: #{$screen-md-min}) {
       @content;
   }
 }
 
 // Large devices
-@mixin lg {
+@mixin media1025 {
   @media (min-width: #{$screen-lg-min}) {
       @content;
   }
 }
 
 // Extra large devices
-@mixin xl {
+@mixin media1480 {
   @media (min-width: #{$screen-xl-min}) {
       @content;
   }
