@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/MilkMidav/Hypnosis.git">
-    <img src="img/readme_img/logo.png" alt="Logo" width="260" height="80">
+    <img src="img/icon/logo.png" alt="Logo" width="260" height="80">
   </a>
 
 <h3 align="center">News site</h3>
