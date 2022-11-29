@@ -2,8 +2,12 @@
 $unit-base: 16px;
 
 $unit-6: calc(($unit-base) * 0.375);
+$unit-7: calc(($unit-base) * 0.4375);
+$unit-8: calc(($unit-base) * 0.5);
+$unit-10: calc(($unit-base) * 0.625);
 $unit-12: calc(($unit-base) * 0.75);
 $unit-14: calc(($unit-base) * 0.875);
+$unit-15: calc(($unit-base) * 0.9375);
 $unit-16: ($unit-base);
 $unit-18: calc(($unit-base) * 1.125);
 $unit-20: calc(($unit-base) * 1.25);
@@ -11,13 +15,19 @@ $unit-22: calc(($unit-base) * 1.375);
 $unit-24: calc(($unit-base) * 1.5);
 $unit-28: calc(($unit-base) * 1.75);
 $unit-30: calc(($unit-base) * 1.875);
+$unit-32: calc(($unit-base) * 2);
 $unit-36: calc(($unit-base) * 2.25);
+$unit-38: calc(($unit-base) * 2.375);
 $unit-40: calc(($unit-base) * 2.5);
+$unit-46: calc(($unit-base) * 2.875);
 $unit-48: calc(($unit-base) * 3);
+$unit-50: calc(($unit-base) * 3.125);
 $unit-58: calc(($unit-base) * 3.625);
 $unit-60: calc(($unit-base) * 3.75);
 $unit-64: calc(($unit-base) * 4);
 $unit-66: calc(($unit-base) * 4.125);
 $unit-76: calc(($unit-base) * 4.75);
 $unit-80: calc(($unit-base) * 5);
+$unit-110: calc(($unit-base) * 6.875);
+$unit-130: calc(($unit-base) * 8.125);
  

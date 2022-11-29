@@ -111,19 +111,19 @@
 }
 
 .pb--20 {
-  padding-bottom: 20px;
+  padding-bottom: g.$unit-20;
 }
 
 .button--primary {
   cursor: pointer;
   text-align: center;
   font-family: inherit;
-  background-color: var(--bg-white);
+  background-color: g.$bg-white;
   color: black;
 }
 
 .button--black {
-  background-color: var(--bg-black);
+  background-color: g.$bg-black;
   color: white;
 }
 
@@ -138,14 +138,14 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #cecece;
-  padding: 8px 7px;
+  padding:  g.$unit-8  g.$unit-7;
 
   @include g.media480 {
-    padding: 8px 14px;
+    padding:  g.$unit-8  g.$unit-14;
   }
 
   @include g.media1480 {
-    padding: 12px 16px;
+    padding:  g.$unit-12  g.$unit-16;
   }
 
   img {

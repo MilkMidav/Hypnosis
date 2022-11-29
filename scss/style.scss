@@ -6,7 +6,7 @@
   position: sticky;
   z-index: 1;
   top: 0;
-  padding: 20px 22px;
+  padding:  g.$unit-20  g.$unit-22;
   width: 100%;
   background-color: var(--bg-white);
   display: flex;
@@ -15,11 +15,11 @@
   border-bottom: 1px solid black;
 
   @include g.media1480 {
-    padding: 27px 80px; 
+    padding: 27px  g.$unit-80; 
   }
 
   sup {
-    font-size: 7px;
+    font-size:  g.$unit-7;
   }
 
   &__links {
@@ -57,8 +57,8 @@
   .input_search {
     width: 260px;
     border: 1px solid gray;
-    border-radius: 20px; 
-    padding: 8px 0 8px 38px;
+    border-radius:  g.$unit-20; 
+    padding:  g.$unit-8 0  g.$unit-8 g.$unit-38;
   }
 
   &__search {
@@ -68,8 +68,8 @@
     &::before {
       content: url(img/icon/search_sm.png);
       position: absolute;
-      top: 7px;
-      left: 10px;
+      top: g.$unit-7;
+      left: g.$unit-10;
     }
 
     @include g.media1025 {
@@ -82,13 +82,13 @@
 
 
 .main {
-  background-color: var(--bg-white);
+  background-color: g.$bg-white;
   max-width: 1480px;
   margin: auto;
 
   &__title {
     border-bottom: 1px solid #C7C7C7;
-    padding: 30px 0;
+    padding: g.$unit-30 0;
     text-align: center;
     
       @include g.media1480 {
@@ -99,10 +99,10 @@
 
   &__author {
     border-bottom: 1px solid black;
-    padding: 16px 12px 24px 12px;
+    padding: g.$unit-16 g.$unit-12 g.$unit-24 g.$unit-12;
 
     @include g.media480 {
-      padding: 16px 20px 24px 20px;
+      padding:g.$unit-16 g.$unit-20 g.$unit-24 g.$unit-20;
     }
 
     @include g.media760 {
@@ -112,17 +112,17 @@
     }
 
     @include g.media1480 {
-      padding: 20px 110px;
+      padding: g.$unit-20 g.$unit-110;
     }
 
   }
 
   &__title_img {
     width: 100%;
-    padding: 48px 20px 0 20px;
+    padding: g.$unit-48 g.$unit-20 0 g.$unit-20;
 
     @include g.media1480 {
-      padding: 60px 80px;
+      padding: g.$unit-60 g.$unit-80;
       margin: 0 auto;
     }
   }
@@ -135,7 +135,7 @@
   &__conclusion {
     text-align: center;
     margin: 0 auto;
-    padding:0 20px 20px;
+    padding:0 g.$unit-20 g.$unit-20;
     max-width: 1030px;
   }
 
@@ -151,7 +151,7 @@
   }
 
   &__newsletter {
-    padding: 64px 20px 88px 20px;
+    padding: g.$unit-64 g.$unit-20 88px g.$unit-20;
     text-align: center;
 
     @include g.media1480 {
@@ -163,7 +163,7 @@
 
 .teaser__img {
   width: 100%;
-  padding-bottom: 28px;
+  padding-bottom: g.$unit-28;
 }
 
 .author__info {
@@ -180,11 +180,11 @@
 .author__share {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 8px;
-  padding-top: 20px;
+  gap:g.$unit-8;
+  padding-top: g.$unit-20;
 
   @include g.media760 {
-    padding: 0 20px 0 0;
+    padding: 0 g.$unit-20 0 0;
   }
 
   @include g.media1480 {
@@ -196,7 +196,7 @@
 .main__conclusion:nth-last-child(3) {
   @include g.media1480 {
     border-bottom: 1px solid black;
-    padding-bottom: 80px;
+    padding-bottom: g.$unit-80;
   }
 }
 
@@ -210,10 +210,10 @@
 
 .video {
   width: 100%;
-  padding: 48px 0 24px 0;
+  padding: g.$unit-48 0 g.$unit-24 0;
   cursor: pointer;
   @include g.media1480 {
-    padding: 120px 130px 64px;
+    padding: 120px g.$unit-130 g.$unit-64;
   }
 }
 
@@ -233,12 +233,12 @@
   justify-content: space-between;
 
   @include g.media1480 {
-    padding: 56px 130px 41px 130px;
+    padding: 56px g.$unit-130 41px g.$unit-130;
   }
 
   button {
     display: none;
-    padding: 18px 50px;
+    padding: g.$unit-18 g.$unit-50;
     @include g.media1480 {
       display: unset;
       margin: unset;
@@ -261,8 +261,8 @@
   @include g.media1480 {
     display: flex;
     align-items: center;
-    padding: 10px 110px 30px 110px;
-    gap: 60px ;
+    padding: g.$unit-10 g.$unit-110 g.$unit-30 g.$unit-110;
+    gap: g.$unit-60 ;
   }
   
 }
@@ -272,16 +272,16 @@
     display: flex;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    margin-bottom: 15px;
-    padding: 0px 110px 0 110px;
+    margin-bottom: g.$unit-15;
+    padding: 0px g.$unit-110 0 g.$unit-110;
   }
 }
 
 .other__news {
-  padding: 32px 20px 48px 20px;
+  padding: g.$unit-32 g.$unit-20 g.$unit-48 g.$unit-20;
 
   @include g.media1480 {
-  padding: 61px 40px 46px;
+  padding: 61px g.$unit-40 g.$unit-46;
   }
 }
 
@@ -296,20 +296,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 7px 10px 7px;
-  margin-top: 22px;
+  padding: g.$unit-10 g.$unit-7 g.$unit-10 g.$unit-7;
+  margin-top: g.$unit-22;
   cursor: pointer;
 
   &:hover {
     transition: 0.2s;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: g.$unit-20;
     
   }
 }
 
 .arrow {
-  width: 80px;
+  width: g.$unit-80;
 }
 
 .news__img {
@@ -322,9 +322,9 @@
 .button_see_all {
   width: 95%;
   max-width: 386px;
-  padding: 16px 0;
+  padding:g.$unit-16 0;
   display: block;
-  margin: 24px auto 0 auto;
+  margin: g.$unit-24 auto 0 auto;
 
   @include g.media1480{
     display: none;
@@ -334,15 +334,15 @@
 .subscribe_button {
   width: 100%;
   max-width: 386px;
-  padding: 15px 0;
+  padding: g.$unit-15 0;
   margin-bottom: g.$unit-24;
   
   @include g.media1480{
    max-width: 140px;
-   padding: 14px 0;
+   padding: g.$unit-14 0;
    position: absolute;
    right: 326px;
-   top: 46px;
+   top: g.$unit-46;
   }
 }
 
@@ -360,24 +360,24 @@
 
   @include g.media1480 {
     max-width: 840px;
-    padding: 22px 150px 22px 22px;
+    padding: g.$unit-22 150px g.$unit-22 g.$unit-22;
   }
 }
 
 .newsletter__subscription {
   @include g.media1480 {
     position: relative;
-    padding: 40px 0;
+    padding: g.$unit-40 0;
   }
 }
 
 .footer {
   background-color:#e7dfdf;
-  padding: 8px 20px 24px 20px;
+  padding:g.$unit-8 g.$unit-20 g.$unit-24 g.$unit-20;
   
 
   @include g.media1480 {
-    padding: 24px 130px 37px;
+    padding: g.$unit-24 g.$unit-130 37px;
   }
 
   &__topics {
@@ -424,7 +424,7 @@ img {
 }
 
   img:not(:last-child) {
-    margin-right: 28px;
+    margin-right: g.$unit-28;
   }
 
   &__social_media {
@@ -444,14 +444,14 @@ img {
 
 .topics__list {
   border-bottom: 1px solid black;
-  padding: 32px 0;
+  padding: g.$unit-32 0;
 }
 
 .site_info__copyright {
-  padding: 16px 0 42px;
+  padding:g.$unit-16 0 42px;
 
   @include g.media1480 {
-    padding:28px 0 0 0;
+    padding: g.$unit-28 0 0 0;
   }
 }
 
@@ -462,7 +462,7 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap:g.$unit-8;
 
   @include g.media1480 {
     gap: g.$unit-20;
@@ -489,8 +489,8 @@ a:focus {
 .teaser {
   display: flex;
   flex-direction: column;
-  padding: 48px 0;
-  margin: 0 20px;
+  padding: g.$unit-48 0;
+  margin: 0 g.$unit-20;
   border-bottom: 1px solid #000000;
 
   @include g.media1480 {
@@ -510,7 +510,7 @@ a:focus {
   }
 
   @include g.media1480 {
-    padding: 0 130px;
+    padding: 0 g.$unit-130;
   }
 
   &--right {
@@ -543,7 +543,7 @@ a:focus {
         flex-basis: 578px;
         border-bottom: 1px solid #000000;
         border-top: 1px solid #000000;
-        padding: 80px 0;
+        padding: g.$unit-80 0;
       }
     }
   }

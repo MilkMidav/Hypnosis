@@ -1,4 +1,5 @@
 @use '../util' as u;
+@use '_colors.scss' as g;
 
 html {
   box-sizing: border-box;
@@ -24,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: u.$font;
-  background-color: var(--bg-white);
+  background-color: g.$bg-white;
 }
 
 hr {
@@ -43,6 +44,6 @@ a,
 a:visited,
 a:active {
 text-decoration: none;
-color: black;
+color: g.$bg-black;
 display: block;
 }

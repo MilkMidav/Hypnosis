@@ -7,7 +7,7 @@
 <div align="center">
   <a href="https://github.com/MilkMidav/Hypnosis.git">
     <h1><b>Hypnosis</b></h1></a>
-    
+
 <h3 align="center">News site</h3>
 
   <p align="center">
@@ -37,15 +37,11 @@
 
 News page written with the help of sass and using the BEM methodology.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 - [Sass] version: 1.56.1
 - [npm] version 8.5.1
 - [node] version 12.29.9
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -63,15 +59,11 @@ To get a local copy up and running follow these simple example steps.
    sass --watch scss/input.scss style.css
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Contact
 
 Milk Midav - [@twitter_handle](https://twitter.com/twitter_handle) - wadim017@gmail.com
 
-Project Link: [https://github.com/MilkMidav/Hypnosis.git](https://github.com/MilkMidav/Hypnosis.git)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [https://milkmidav.github.io/Hypnosis/](https://milkmidav.github.io/Hypnosis/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
