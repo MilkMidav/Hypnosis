@@ -180,7 +180,7 @@
 .author__share {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap:g.$unit-8;
+  gap: g.$unit-8;
   padding-top: g.$unit-20;
 
   @include g.media760 {

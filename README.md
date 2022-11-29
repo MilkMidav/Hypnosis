@@ -13,8 +13,12 @@
   <p align="center">
     A small page designed for news blocks
   </p>
-</div>
+  <p align="center">
 
+Try it out on GitHub Pages: [https://milkmidav.github.io/Hypnosis/](https://milkmidav.github.io/Hypnosis/)
+
+  </p>
+</div>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -59,11 +63,13 @@ To get a local copy up and running follow these simple example steps.
    sass --watch scss/input.scss style.css
    ```
 
+<!-- CONTACT -->
+
 ## Contact
 
-Milk Midav - [@twitter_handle](https://twitter.com/twitter_handle) - wadim017@gmail.com
+Milk Midav - [@twitter](https://twitter.com/MilkMidav) - wadim017@gmail.com
 
-Project Link: [https://milkmidav.github.io/Hypnosis/](https://milkmidav.github.io/Hypnosis/)
+Project Link: [https://github.com/MilkMidav/Hypnosis.git](https://github.com/MilkMidav/Hypnosis.git)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
