@@ -6,15 +6,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/MilkMidav/Hypnosis.git">
-    <img src="img/icon/logo.png" alt="Logo" width="260" height="80">
-  </a>
-
+    <h1><b>Hypnosis</b></h1></a>
+    
 <h3 align="center">News site</h3>
 
   <p align="center">
     A small page designed for news blocks
-    <br />
-    <a href="https://github.com/MilkMidav/Hypnosis"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
@@ -38,16 +35,15 @@
 
 ## About The Project
 
-News site written with the help of sass and using the BEM methodology.
+News page written with the help of sass and using the BEM methodology.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [SASS] version: 1.56.1
-- [NPM] version 8.5.1
-- [NODE] version 12.29.9
-- [BEM]
+- [Sass] version: 1.56.1
+- [npm] version 8.5.1
+- [node] version 12.29.9
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,25 +62,6 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    sass --watch scss/input.scss style.css
    ```
-4. You need to clone repo with this command
-   ```sh
-    git clone git@github.com:MilkMidav/Hypnosis.git
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Branch (`git checkout -b 'Name branch'`)
-3. Commit your Changes (`git commit -m 'Add new branch'`)
-4. Push to the Branch (`git push origin`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
