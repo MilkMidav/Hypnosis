@@ -15,7 +15,7 @@
   </p>
   <p align="center">
 
-Try it out on GitHub Pages: [https://milkmidav.github.io/Hypnosis/](https://milkmidav.github.io/Hypnosis/)
+Try it out on GitHub Pages: [https://milkmidav.github.io/Hypnosis/](https://milkmidav.github.io/hypnosis/)
 
   </p>
 </div>
